@@ -4,26 +4,38 @@
 
 
 ### readLine("prompt")
-read a line of text from the console  
-i.e `String colour = readLine("Enter your favourite colour? ");`
+- Read a line of text from the console
+
+> Example: 
+>
+> `String colour = readLine("Enter your favourite colour? ");`
 
 ### readInt("prompt")
-read an integer from the console  
-i.e `int numGarage = readInt("Enter the number of garages: ");`
+- Read an integer from the console  
+
+> Example:
+> 
+> `int numGarage = readInt("Enter the number of garages: ");`
 
 ### readDouble("prompt")
-read a double value from the console  
-i.e `double avg = readDouble("Enter your grade average: ");`
+- Read a double value from the console
+
+> Example:
+>
+> `double avg = readDouble("Enter your grade average: ");`
 
 ### readBoolean("prompt")
-read as boolean  value from the console  
-i.e `boolean pancakes = readBoolean("Do you like pancakes(true/false)");`
+- Read as boolean  value from the console 
+
+> Example:
+>
+> `boolean pancakes = readBoolean("Do you like pancakes(true/false)");`
 
 ### General CodeHS User Input Template (from variable declaration)
 `<dataType> <variableName> = <readCommand>("<prompt>");`
 
 ## Example 1
-Create a program UserInput.java that asks for the following information and then outputs the information back to the console
+Create a program `UserInput.java` that asks for the following information and then outputs the information back to the console
 * name
 * age
 * current mark
@@ -42,7 +54,7 @@ Current Mark: 92.3
 Locker Assigned: true
 ```
 
-### vExample2
+## Example 2
 Modify `UserInput.java` so that it prompts for a first name and last name 
 
 
